@@ -28,6 +28,8 @@ fiboEvenSum(34);
 module.exports = fiboEvenSum;
 
 //! ChatGPT's solutions
+
+// Same time complexity but easier to follow and a lot smaller space complexity. This is O(1) while mine is O(n) becasue I create an array o n elements.
 function fiboEvenSumC(n) {
   let sum = 0;
   let prev = 1;
