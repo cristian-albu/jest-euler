@@ -36,4 +36,8 @@ describe("fiboEvenSum", () => {
   test("sums the even-valued Fibonacci numbers when input is 4000000", () => {
     expect(fiboEvenSum(4000000)).toBe(4613732);
   });
+
+  test("Should not be a string", () => {
+    expect(typeof fiboEvenSum()).not.toBe("string");
+  });
 });

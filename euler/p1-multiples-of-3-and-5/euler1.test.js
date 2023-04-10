@@ -20,4 +20,8 @@ describe("multiplesOf3and5", () => {
   test("returns 89301183 when input is 19564", () => {
     expect(multiplesOf3and5(19564)).toBe(89301183);
   });
+
+  test("Should not be a string", () => {
+    expect(typeof multiplesOf3and5()).not.toBe("string");
+  });
 });
