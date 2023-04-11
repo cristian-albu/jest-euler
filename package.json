@@ -1,15 +1,24 @@
 {
   "name": "jest-euler",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [History of JavaScript](https://fireship.io/courses/javascript/intro-history/)\r - [How JavaScript works](https://fireship.io/courses/javascript/intro-how-js-works/)\r - [JavaScript survival guide](https://fireship.io/courses/javascript/beginner-js-survival-guide/)",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-albu/jest-euler.git"
   },
   "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.5.0"
+  "bugs": {
+    "url": "https://github.com/cristian-albu/jest-euler/issues"
+  },
+  "homepage": "https://github.com/cristian-albu/jest-euler#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
   }
 }

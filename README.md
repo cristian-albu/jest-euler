@@ -7,15 +7,22 @@
 - [JavaScript survival guide](https://fireship.io/courses/javascript/beginner-js-survival-guide/)
 
 1. Understand garbage collection ✅
+
    - [Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_management)
    - [Memory storage and garbage collection](https://www.youtube.com/watch?v=Hci9Bb4_fkA)
+
 2. Stack trace, call trace, execution, hoisting, and scopes ✅
+
    - [Stack trace](https://www.sentinelone.com/blog/javascript-stack-trace-understanding-it-and-using-it-to-debug/#:~:text=A%20stack%20trace%20is%20a,console.)
    - [Call stack](https://www.youtube.com/watch?v=-G9c4CMMUKc)
    - [Execution context](https://www.youtube.com/watch?v=Fd9VaW0M7K4)
-3. Functions & Objects
+
+3. Functions & Objects ✅
+
    - [Functions](https://fireship.io/courses/javascript/beginner-js-functions/)
    - [Objects](https://fireship.io/courses/javascript/beginner-js-objects/)
+
+4. [Js quiz](https://www.w3schools.com/js/js_quiz.asp)
 
 ### Basic DOM
 
@@ -28,6 +35,10 @@
 7. DOM traversal
 
 ### Async code
+
+- [Traversy Media](https://www.youtube.com/watch?v=PoRJizFvM7s)
+- [Fireship](https://www.youtube.com/watch?v=vn3tm0quoqE)
+- [JSConf Jake Archibald event loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
 
 1. Callbacks
 2. Promises
