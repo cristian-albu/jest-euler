@@ -30,6 +30,6 @@ describe("largestPrimeFactor", () => {
   });
 
   test("Should not be a string", () => {
-    expect(typeof largestPrimeFactor(2)).not.toBe("string");
+    expect(typeof largestPrimeFactor()).not.toBe("string");
   });
 });
