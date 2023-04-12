@@ -34,7 +34,7 @@
 6. Data attributes
 7. DOM traversal
 
-### Async code
+### Async code ✅
 
 - [Traversy Media](https://www.youtube.com/watch?v=PoRJizFvM7s)
 - [Fireship](https://www.youtube.com/watch?v=vn3tm0quoqE)
@@ -43,25 +43,6 @@
 1. Callbacks
 2. Promises
 3. Async await
-
-### Advanced DOM
-
-1. Fetch
-2. Event loop
-3. Event delegation
-4. Storage, sessions, cookies
-
-### Modules/bundlers
-
-1. ES6 modules
-2. Node modules
-3. NPM, yarn
-4. Web pack, parcel, snowpack, rollup, Vite
-
-### Git
-
-1. Basic commands
-2. GitHub
 
 ### Advanced features
 
@@ -73,18 +54,6 @@
 6. Object getters and setters
 7. Bind
 8. Call and apply
-
-### Testing
-
-1. Jest basics
-2. Test types (unit, integration, end to end)
-
-### Clean code
-
-1. Coupling and cohesion
-2. Facade pattern
-3. Guard clauses
-4. Composition vs inheritance
 
 ## OOP
 
