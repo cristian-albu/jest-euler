@@ -28,6 +28,7 @@ module.exports = bubbleSort;
 
 // Chat CPT solution
 
+// The time complexity of the original implementation of bubble sort is O(n^2), because it uses two nested loops to compare all pairs of elements in the array. In the worst case scenario, where the array is already sorted in reverse order, it would take n^2 comparisons and n^2 swaps to sort the array.
 function bubbleSort2(arr) {
   const newArr = [...arr];
   let swapped;
