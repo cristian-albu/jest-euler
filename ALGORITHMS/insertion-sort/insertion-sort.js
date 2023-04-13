@@ -13,11 +13,13 @@ function insertionSort(unsortedArr) {
   const arr = [...unsortedArr];
   let count = 0;
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < i; j++) {
+    for (let j = i; j > 0; j--) {
       count += 1;
 
-      if (arr[j] > arr[i]) {
-        [arr[i], arr[j]] = [arr[j], arr[i]];
+      if (arr[j] < arr[j - 1]) {
+        [arr[j], arr[j - 1]] = [arr[j - 1], arr[j]];
+      } else {
+        break;
       }
     }
   }
